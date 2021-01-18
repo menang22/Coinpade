@@ -24,3 +24,4 @@ $js = json_decode($result, true);
 echo "Login Success\n";
 echo "Welcome To CoinPade Bot ".$js["user"]["name"]."\n";
 echo "Your Ballance : ".$js["user"]["user_balance"]."\n";
+?>
